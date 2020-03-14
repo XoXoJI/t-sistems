@@ -23,7 +23,7 @@ module.exports = {
 
   devtool: NODE_ENV == 'development' ? "source-map" : null,
 
-  watch: NODE_ENV == 'development',
+  // watch: NODE_ENV == 'development',
 
   module: {
     rules: [
