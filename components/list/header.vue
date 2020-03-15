@@ -17,6 +17,7 @@ export default {
 <style lang="sass" scoped>
 .header
     white-space: nowrap
+    font: $font
     @media screen and (max-width: 768px)
         padding: 24px 16px
         background: $white
